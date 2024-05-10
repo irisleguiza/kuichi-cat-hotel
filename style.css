@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.texto-banner {
+    text-align: left;
+    padding: 20px;
+}
+
+.texto-banner h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.texto-banner p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn-reservar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.sobre,
+.servicos,
+.pacotes,
+.contato {
+    padding: 40px;
+}
+
+.sobre h2,
+.servicos h2,
+.pacotes h2,
+.contato h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre p,
+.servicos ul,
+.pacotes .pacote {
+    text-align: justify;
+}
+
+.pacotes .pacote {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pacotes .pacote h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.pacotes .pacote ul {
+    list-style: disc;
+    padding: 0;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contato input,
+.contato textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contato textarea {
+    height: 100px;
+}
+
+.contato button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Cores do arco-íris */
+
+.sobre h2,
+.servicos h2,
+.pacotes h2,
+.contato h2 {
+    color: #f00; /* Vermelho */
+}
+
+.sobre p,
+.servicos ul li,
+.pacotes .pacote h3 {
+    color: #ffa500; /* Laranja */
+}
+
+.pacotes .pacote ul li {
+    color: #ffff00; /* Amarelo */
+}
+
+.contato form label,
+.contato form input,
+.contato form textarea {
+    border-color: #008000; /* Verde */
+}
+
+.contato button {
+    background-color: #00bfff; /* Azul */
+}
+
+.btn-reservar:hover {
+    background-color: #6c757d
+}
